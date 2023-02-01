@@ -1,0 +1,275 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Itim','Indie+Flower';
+    font-size: 24px;
+    background-color: #4E4A59;
+}
+
+.headpic 
+{
+    border-radius: 50%;
+}
+
+a:link 
+{
+    color: #24FF7B;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited 
+{
+    color: #22aeea;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover 
+{ 
+    color: #d31ce0;
+    text-decoration: none; 
+}
+
+
+a:active 
+{ 
+    text-decoration: none; 
+}
+
+.top 
+{
+    background-color: #839073;
+    padding: 50px;
+    text-align: center;
+    font-family: Indie+Flower;
+    color:#E3CFCA
+    
+}
+
+.place
+{
+    position: full;
+    border: dashed;
+}
+
+.cloud1
+{
+    position: absolute;
+    right: 1600px;
+    top: 1100px;
+}
+
+.cloud2
+{
+    position: absolute;
+    right: 200px;
+    top: 800px;
+}
+
+ul.language
+{
+    display: inline-block;  
+    text-align:center
+   
+}
+
+ul.experience
+{
+    display: inline-block;  
+    text-align:center
+
+}
+
+ul.skill 
+{
+    display: inline-block; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+.middle 
+{
+    background-color: #4E4A59;
+    padding: 50px;
+    text-align: center;
+    font-family: Itim;
+    color:#E3CFCA
+}
+
+
+.bottom
+{
+    border-top: 5px groove #E3CFCA;
+    border-radius: 2;
+    background-color: #968988;
+    padding: 50px;
+    text-align: center;
+    font-family: Itim;
+    color:#E3CFCA
+
+}
+
+.size1
+{
+    font-size: 72px;
+}
+
+.size2 
+{
+    font-size: 48px;
+}
+
+.size3
+{
+    font-size: 36px;
+}
+
+.touchbutton
+{
+    margin-top: 20px;
+    background-color: #57e65c; 
+    border: 0px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Itim;
+}
+
+.horizontaltheme
+{
+    width: 30%;
+    border-top: 5px dotted #ffffff;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px
+
+}
+
+.column {
+   display:inline-block; 
+}
+
+.row
+{
+    height: 200px;
+    width: 50%;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.rowA
+{
+    height: 200px;
+    width: 20%;
+    padding: 0px;
+    margin: 0 auto; 
+}
+
+.rowC
+{
+    
+     height: 250px;
+     width: 30%;
+     padding: 0px;
+     margin: 0 auto;
+      
+}
+.left2
+{
+    float: left;
+    height:100%;
+    width:40%;
+
+}
+
+
+.right2
+{
+    height:100%;
+    width:60%;
+    
+}
+
+.clear
+{
+    clear:both;
+}
+
+.customAmazon
+{
+    margin-left: 50%;
+    margin-top: 20%;
+}
+
+.customFood
+{
+    margin-top: 35%;
+}
+
+.customCode
+{
+    margin-top: 15%;
+}
+
+.header
+{
+    text-align: center;
+    background-color: #839073;
+    color: #E3CFCA;
+    font-family: Indie+Flower;
+    padding: 50px;
+}
+
+.card
+{
+    text-align: center;
+    background-color: #968988;
+    color: #E3CFCA;
+    font-family: Itim;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    margin: 100px auto 0 auto;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+#content1::after{
+    content: "\a";
+    white-space: pre;
+}
+
+.name
+{
+    height: 30px;  
+    width: 84%;
+    font-size:20px;
+}
+
+.email
+{
+    height: 30px;
+    width: 84%;
+    font-size: 20px;
+
+}
+
+.textarea
+{
+    resize: none;
+    font-size: 20px;
+}
+
+.inputfont
+{
+    font-size: 30px;
+}
